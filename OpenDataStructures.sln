@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDataStructures", "OpenDataStructures\OpenDataStructures.csproj", "{FC2D71B5-2988-4B85-9613-F0FD1631558B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDataStructures.Tests", "DataStructuresTests\OpenDataStructures.Tests.csproj", "{0E70775A-DA7C-4335-A9AA-F4F77F849A37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2D71B5-2988-4B85-9613-F0FD1631558B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2D71B5-2988-4B85-9613-F0FD1631558B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2D71B5-2988-4B85-9613-F0FD1631558B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2D71B5-2988-4B85-9613-F0FD1631558B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E70775A-DA7C-4335-A9AA-F4F77F849A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E70775A-DA7C-4335-A9AA-F4F77F849A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E70775A-DA7C-4335-A9AA-F4F77F849A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E70775A-DA7C-4335-A9AA-F4F77F849A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77BB1176-143B-46B5-A896-C2943CD7AD49}
+	EndGlobalSection
+EndGlobal
