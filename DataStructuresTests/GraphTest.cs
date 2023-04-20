@@ -19,7 +19,7 @@ public class GraphTests
     public void Initialize()
     {
         var asemblyPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
-        var testDataPath = Path.Combine(asemblyPath, "Data\\GraphTests\\graph.txt");
+        var testDataPath = Path.Combine(asemblyPath, @"Data/GraphTests/graph.txt");
         
         _testData = File.ReadAllLines(testDataPath).Select(raw => raw.Split(", ").Select(int.Parse).ToList()).ToList();
 
